@@ -1,16 +1,35 @@
-# React + Vite
+# NeurisAI Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official website for the NeurisAI forensic intelligence platform.
 
-Currently, two official plugins are available:
+**Live:** [kylacoquete.github.io/neurisai-web](https://kylacoquete.github.io/neurisai-web/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- **React 19** + Vite
+- **Tailwind CSS v4**
+- **Anime.js** for scroll & entrance animations
+- Canvas-based interactive neural network background
+- Responsive with mobile navigation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Pages
 
-## Expanding the ESLint configuration
+- **Home** — Hero, feature cards, audience section
+- **About** — Mission, problem statement, values, team
+- **Technology** — Module architecture, infrastructure, research links
+- **Contact** — Email channels, partnership & investor info
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Deployment
+
+Automated via GitHub Actions → GitHub Pages on every push to `main`.
+
+## License
+
+MIT
